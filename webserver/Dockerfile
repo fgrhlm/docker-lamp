@@ -1,9 +1,5 @@
-FROM webdevops/php-apache:7.4-alpine
+FROM webdevops/php-apache:7.3
 
-# WARNING!!!!!
-# DONT TRY THIS AT HOME KIDS!!!!!!
-USER root
 RUN mkdir /var/www/html/upload
 RUN chown -R www-data:www-data /var/www/html/upload
-RUN chmod -R 777 /var/www/html/upload
-# WARNING!!!!!
+RUN chmod -R 755 /var/www/html/upload

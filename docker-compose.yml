@@ -15,7 +15,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./projekt1/:/app:rw,cached
+      - $PROJECT_PATH:/app
       - ./config/php.ini:/opt/docker/etc/php/php.ini
     networks:
       dev:
