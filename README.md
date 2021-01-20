@@ -2,9 +2,9 @@
  
  Simple environment for developing LAMP based stuff.
 
- Set the environment variable `PROJECT_PATH` to your projects directory.
+ Set the environment variable `PROJECT_PATH`
 
- `PROJECT_PATH=$PROJECT_PATH docker-compose up`
+ `PROJECT_PATH=YOUR_PROJECT_PATH docker-compose up`
 
  
 | Service       | Port          |
